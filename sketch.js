@@ -70,7 +70,7 @@ function draw() {
 
   fill(0)
   textSize(20)
-text("Press space to get another chance to play",50,50,400)
+text("Press space to get one more chance ",50,50,400)
 }
 function mouseDragged(){
 	Matter.Body.setPosition(stone.body,{x:mouseX,y:mouseY})
